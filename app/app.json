@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Pencil",
+    "slug": "pencil",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.shahnewaz.pencil",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "dev.shahnewaz.pencil",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.ico"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7c59e461-49cb-4323-b4f8-0109beb6d7f5"
+      }
+    }
+  }
+}
